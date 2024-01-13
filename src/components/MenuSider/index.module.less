@@ -1,0 +1,27 @@
+/*
+ * @Author: tzy
+ * @Date: 2022/9/5 上午9:57
+ * @LastEditTime: 2022/9/5 上午9:57
+ * @LastEditors: tzy
+ * @Description: sider样式
+ */
+
+.memSider {
+  transition: none !important;
+
+  .split {
+    position: absolute;
+    top: 0;
+    right: -4px;
+    z-index: 1000;
+    width: 8px;
+    height: 100%;
+    border-radius: 4px;
+    cursor: col-resize;
+    user-select: none;
+
+    &:hover {
+      background: linear-gradient(transparent 50%, #e0e0e0);
+    }
+  }
+}
